@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+    /*cursor: none;*/
+}
+
+h1{
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+span{
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: darkgoldenrod;
+    background-image: linear-gradient(#f43ff4, #d8e614);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero-text{
+    background: url(zeus.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    color: bisque;
+    padding: 60px;
+}
+
+.cursor{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    color: #fff;
+}
+
+.cursor-text{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.cursor-text .char{
+    position: absolute;
+}
